@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import DropdownMenu from './DropdownMenu';
 import ImageCarousel from './ImageCarousel';
+import ShopByBrand from './ShopByBrand';
 
 const Homepage = () => { 
   return (
@@ -9,6 +10,7 @@ const Homepage = () => {
     <Navbar/>
     <DropdownMenu/>
     <ImageCarousel/>
+    <ShopByBrand/>
 
     
   </>
