@@ -1,0 +1,78 @@
+/* Container for the dropdown */
+.dropdown-container {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  /* Horizontal Menu */
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+  }
+  
+  /* Menu Items */
+  .menu-item {
+    position: relative;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .menu-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Submenu that appears vertically below each menu item */
+  .submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 200px;
+    z-index: 1;
+  }
+  
+  .submenu p {
+    padding: 10px 15px;
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .submenu p:hover {
+    background-color: #f9f9f9;
+    color: #007bff;
+  }
+  
+  .submenu p:last-child {
+    border-bottom: none; /* Remove border from the last item */
+  }
+  
+  /* Hide submenu by default */
+  .submenu {
+    display: none;
+  }
+  
+  /* Show submenu on hover */
+  .menu-item:hover .submenu {
+    display: block;
+  }
+  
+  /* Responsive: Stack menu items vertically on smaller screens */
+  @media (max-width: 768px) {
+    .menu {
+      flex-direction: column;
+    }
+  
+    .menu-item {
+      text-align: center;
+    }
+  }
+  

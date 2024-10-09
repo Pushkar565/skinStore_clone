@@ -1,0 +1,99 @@
+/* Navbar Container */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow for a clean effect */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Logo Section */
+  .navbar-logo img {
+    width: 150px;
+    height: auto;
+    cursor: pointer; /* Make the logo clickable (typically links to the homepage) */
+  }
+  
+  /* Search Bar */
+  .navbar-search {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0 20px;
+    max-width: 500px; /* Limit the width of the search bar */
+  }
+  
+  .navbar-search input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 14px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-button {
+    padding: 10px;
+    background-color: #007bff; /* Blue background for the search button */
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-button img {
+    width: 20px;
+    height: auto;
+    filter: invert(1); /* White icon on blue button */
+  }
+  
+  /* Account and Cart Sections */
+  .navbar-account, .navbar-cart {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .navbar-account img, .navbar-cart img {
+    width: 24px;
+    height: auto;
+    margin-right: 8px;
+  }
+  
+  .navbar-account p, .navbar-cart p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .navbar-account:hover p, .navbar-cart:hover p {
+    color: #007bff; /* Color change on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar-container {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .navbar-search {
+      margin: 10px 0;
+      width: 100%;
+      max-width: none;
+    }
+  
+    .navbar-account, .navbar-cart {
+      margin-left: 10px;
+    }
+  }
+  

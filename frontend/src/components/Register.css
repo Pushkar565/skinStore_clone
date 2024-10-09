@@ -1,0 +1,157 @@
+/* Wrapper and Container Styles */
+.register-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .register-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-container {
+    margin-bottom: 20px;
+  }
+  
+  .logo-container img {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Form Styles */
+  .register-form {
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 14px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+  }
+  
+  /* Button Styles */
+  .create-account-btn,
+  .sign-in-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-account-btn:hover,
+  .sign-in-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Social Login Section */
+  .social-register {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .facebook-btn,
+  .google-btn {
+    width: 48%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .facebook-btn {
+    background-color: #3b5998;
+  }
+  
+  .facebook-btn:hover {
+    background-color: #2d4373;
+  }
+  
+  .google-btn {
+    background-color: #db4437;
+  }
+  
+  .google-btn:hover {
+    background-color: #c33c28;
+  }
+  
+  /* Existing Customer Section */
+  .existing-customers {
+    text-align: center;
+  }
+  
+  .existing-customers h2 {
+    margin-bottom: 10px;
+  }
+  
+  .sign-in-btn {
+    background-color: #28a745;
+  }
+  
+  .sign-in-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .register-container {
+      padding: 20px;
+    }
+  
+    .social-buttons {
+      flex-direction: column;
+    }
+  
+    .social-buttons button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
