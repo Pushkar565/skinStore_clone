@@ -1,0 +1,13 @@
+.Earn_point {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .earn-point-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; 
+    object-fit: cover;
+  }
+  
