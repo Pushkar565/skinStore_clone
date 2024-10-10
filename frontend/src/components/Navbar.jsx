@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../assets/skstr-global-113e023e-ecc9-45df-abad-eb92ce1956c9-logo-default.svg'; 
 import './Navbar.css'; 
+import accountLogo from '../assets/logo/account.jpg'
 const Navbar = () => {
   return (
     <nav className="navbar-container">
@@ -19,7 +20,7 @@ const Navbar = () => {
 
       {/* Account Section */}
       <div className="navbar-account">
-        <img src="" alt="Account Icon" />
+        <img src={accountLogo} alt="Account Icon" />
         <p>Account</p>
       </div>
 

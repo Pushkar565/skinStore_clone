@@ -9,8 +9,7 @@ function App() {
     <>
       <Homepage /> 
 
-      {/* <Login/> */}
-      {/* <Register/> */}
+      
     </>
   );
 }

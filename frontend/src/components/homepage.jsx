@@ -6,6 +6,8 @@ import ShopByBrand from './ShopByBrand';
 import img from '../assets/earnPoint/1.avif';
 import './homepage.css';
 import Footer from './_Footer';
+import __Footer from './__Footer';
+
 
 const Homepage = () => { 
   return (
@@ -22,6 +24,7 @@ const Homepage = () => {
       </div>
 
       <Footer />
+      <__Footer />
     </>
   );
 }
