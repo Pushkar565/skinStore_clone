@@ -10,7 +10,7 @@ import __Footer from './__Footer';
 import { Link } from 'react-router-dom';
 
 
-const Homepage = () => { 
+const homepage = () => { 
   return (
     <>
       <Navbar />
@@ -31,4 +31,4 @@ const Homepage = () => {
   );
 }
 
-export default Homepage;
+export default homepage;
