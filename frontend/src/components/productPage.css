@@ -1,0 +1,132 @@
+/* Container for the product page */
+.products-container {
+    padding: 40px;
+    background-color: #f7f9fc;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Grid layout for the product list */
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+  }
+  
+  /* Styling for individual product cards */
+  .product-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image container */
+  .product-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+  
+  .product-card:hover .product-image {
+    transform: scale(1.1);
+  }
+  
+  /* Product text details */
+  .product-card h2 {
+    font-size: 20px;
+    color: #333;
+    padding: 15px 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .product-card p {
+    font-size: 16px;
+    color: #666;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  /* Product price styling */
+  .product-card .product-price {
+    font-size: 18px;
+    color: #2ecc71;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Button container for actions */
+  .product-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Styling for buttons */
+  .add-to-cart,
+  .add-to-wishlist {
+    flex: 1;
+    padding: 12px;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    text-align: center;
+    border: none;
+  }
+  
+  .add-to-cart {
+    background-color: #1abc9c;
+    color: #fff;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #16a085;
+  }
+  
+  .add-to-wishlist {
+    background-color: #f8f9fa;
+    color: #3498db;
+    border: 2px solid #3498db;
+  }
+  
+  .add-to-wishlist:hover {
+    background-color: #ecf0f1;
+  }
+  
+  /* Button hover effect */
+  .add-to-cart:hover,
+  .add-to-wishlist:hover {
+    transform: translateY(-3px);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .products-container {
+      padding: 20px;
+    }
+  
+    .product-list {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+  
+    .product-card h2 {
+      font-size: 18px;
+    }
+  
+    .product-card p {
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,108 @@
+{
+  "skinceuticals": [
+    {
+      "image_url": "https://static.thcdn.com/images/xsmall/webp//productimg/original/13547805-1174926019137063.jpg",
+      "name": "SkinCeuticals Replenishing Anti-Aging Regimen Worth $332.00",
+      "box": "SkinCeuticals Triple Lipid Restore 2:4:2 4ml Gift",
+      "price": "292.16"
+    },
+    {
+      "image_url": "https://static.thcdn.com/images/xsmall/webp//productimg/original/13547804-2124926019007688.jpg",
+      "name": "SkinCeuticals Anti-Aging Radiance Duo Worth $296.00",
+      "box": "SkinCeuticals Triple Lipid Restore 2:4:2 4ml Gift",
+      "price": "260.48"
+    },
+    {
+      "image_url": "https://static.thcdn.com/images/xsmall/webp//productimg/original/13279307-1044898790795072.jpg",
+      "name": "SkinCeuticals Post-Injectable System",
+      "box": "SkinCeuticals Triple Lipid Restore 2:4:2 4ml Gift",
+      "price": "190"
+    },
+    {
+      "image_url": "https://static.thcdn.com/images/xsmall/webp//productimg/original/13547807-5554926019432371.jpg",
+      "name": "SkinCeuticals AM/PM Replenishing Antioxidant Regimen Worth $449",
+      "box": "SkinCeuticals Triple Lipid Restore 2:4:2 4ml Gift",
+      "price": "395"
+    },
+    {
+      "image_url": "https://static.thcdn.com/images/xsmall/webp//productimg/original/13279308-1124898791328007.jpg",
+      "name": "SkinCeuticals Post-Chemical Peel System",
+      "box": "SkinCeuticals Triple Lipid Restore 2:4:2 4ml Gift",
+      "price": "205"
+    }
+  ],
+  "christophe_robin": [
+    {
+      "image_url": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12635435-1334911951506958.jpg",
+      "name": "Christophe Robin Cleansing Purifying Scrub with Sea Salt 250ml",
+      "box": "Christophe Robin Gift",
+      "MSRP": "53",
+      "price": "39"
+    },
+    {
+      "image_url": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12635437-1314911951568611.jpg",
+      "name": "Christophe Robin Cleansing Purifying Scrub with Sea Salt 50ml",
+      "box": "Christophe Robin Gift",
+      "MSRP": "50",
+      "price": "38"
+    },
+    {
+      "image_url": "https://static.thcdn.com/images/xsmall/webp//productimg/original/12752678-1894894638558975.jpg",
+      "name": "Christophe Robin Cleansing Purifying Scrub 350ml",
+      "box": "Christophe Robin Gift",
+      "MSRP": "40",
+      "price": "39"
+    },
+    {
+      "image_url": "https://static.thcdn.com/images/large/webp/productimg/1600/1600/10556831-1834679252280012.jpg",
+      "name": "Christophe Robin Cleansing Purifying Scrub 350ml",
+      "box": "Christophe Robin Gift",
+      "MSRP": "45",
+      "price": "40"
+    },
+    {
+      "image_url": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12635432-1134893265973415.jpg",
+      "name": "Christophe Robin Cleansing Purifying Scrub 350ml",
+      "box": "Christophe Robin Gift",
+      "MSRP": "45",
+      "price": "40"
+    }
+  ],
+  "featured_products": [
+    {
+      "image_url": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13232824-1904908361586136.jpg",
+      "name": "SkinStore Holiday Edit 2021 (Worth Over",
+      "box": "50% off SkinStore",
+      "MSRP": "150",
+      "price": "75"
+    },
+    {
+      "image_url": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13468234-5434916661811767.jpg",
+      "name": "Decorté Liposome Advanced Repair Serum",
+      "box": "$33 Decorté Gift",
+      "MSRP": "100",
+      "price": "75"
+    },
+    {
+      "image_url": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13422147-2054909926994386.jpg",
+      "name": "VIRTUE 6-in-1 Styling Paste 150ml",
+      "box": "VIRTUE Gift",
+      "MSRP": "60",
+      "price": "48"
+    },
+    {
+      "image_url": "https://static.thcdn.com/images/xsmall/webp//productimg/original/13461935-1424911141630369.jpg",
+      "name": "Bloom and Blossom Comfort",
+      "box": "Winter Sale- Up to 50% off",
+      "MSRP": "345",
+      "price": "240"
+    },
+    {
+      "image_url": "https://static.thcdn.com/images/xsmall/webp//productimg/original/13208347-1024894854814398.jpg",
+      "name": "ghd Exclusive Starter Pack (Worth $314.00)",
+      "box": "Winter Sale- Up to 50% off",
+      "MSRP": "55",
+      "price": "40"
+    }
+  ]
+}
