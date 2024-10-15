@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'; // Import Link for routing
 import logo from '../assets/skstr-global-113e023e-ecc9-45df-abad-eb92ce1956c9-logo-default.svg'; 
 import './Navbar.css'; 
 import accountLogo from '../assets/logo/account.jpg';
-import searchLogo from '../assets/logo/Icons8-search.svg';
+import searchIcon from '../assets/logo/Icons8-search.svg';
+;
 import cartLogo from '../assets/logo/icons8-cart-96.png';
 import WishlistLogo from "../assets/logo/icons8-heart-100.png";
 
@@ -21,7 +22,7 @@ const Navbar = () => {
       <div className="navbar-search">
         <input type="text" placeholder="Search for a product or brand" />
         <button className="search-button">
-          <img src={searchLogo} alt="Search" />
+          <img src={searchIcon} alt="Search" />
         </button>
       </div>
 
