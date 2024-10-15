@@ -4,7 +4,7 @@ import DropdownMenu from './DropdownMenu';
 import ImageCarousel from './ImageCarousel';
 import ShopByBrand from './ShopByBrand';
 import img from '../assets/earnPoint/1.avif';
-import './Homepage.css';
+import './homepage.css';
 import Footer from './_Footer';
 import __Footer from './__Footer';
 import { Link } from 'react-router-dom';
