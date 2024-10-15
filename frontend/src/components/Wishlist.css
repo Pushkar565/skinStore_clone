@@ -1,43 +1,5 @@
 .wishlist-container {
     padding: 20px;
-  }
-  
-  .wishlist-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-  }
-  
-  .wishlist-image {
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-  }
-  
-  .wishlist-item h2 {
-    flex: 1;
-    margin-left: 10px;
-  }
-  .wishlist-container {
-    padding: 20px;
-    background-color: #f7f9fc; /* Light background for better contrast */
-    max-width: 1200px; /* Center the content */
-    margin: 0 auto; /* Centering the container */
-  }
-  
-  h1 {
-    color: #333; /* Darker text for better readability */
-    font-size: 28px;
-    margin-bottom: 20px;
-    text-align: center; /* Center the heading */
-  }
-  
-  .wishlist-container {
-    padding: 20px;
     background-color: #f7f9fc; /* Light background for better contrast */
     max-width: 1200px; /* Center the content */
     margin: 0 auto; /* Centering the container */
@@ -51,13 +13,13 @@
   }
   
   .wishlist-list {
-    display: grid; /* Grid layout for wishlist items */
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
-    gap: 20px; /* Spacing between items */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    gap: 15px; /* Space between items */
   }
   
   .wishlist-item {
-    display: flex; /* Flexbox layout for each wishlist item */
+    display: flex; /* Flex layout for each wishlist item */
     align-items: center; /* Center align vertically */
     justify-content: space-between; /* Space between image and details */
     padding: 15px; /* Inner padding for better spacing */
@@ -125,7 +87,7 @@
   /* Responsive styles */
   @media (max-width: 768px) {
     .wishlist-list {
-      grid-template-columns: 1fr; /* Stack items on smaller screens */
+      flex-direction: column; /* Stack items vertically on smaller screens */
     }
   }
   

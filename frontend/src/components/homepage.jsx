@@ -7,6 +7,7 @@ import img from '../assets/earnPoint/1.avif';
 import './homepage.css';
 import Footer from './_Footer';
 import __Footer from './__Footer';
+import { Link } from 'react-router-dom';
 
 
 const Homepage = () => { 
@@ -17,11 +18,12 @@ const Homepage = () => {
       <ImageCarousel />
       <ShopByBrand />
 
-      <div className='earn-point'>
+      <Link to="/productPage">
+    <div className='earn-point'>
         <picture className="earn-point-image">
           <img src={img} alt="Earn Points" />
         </picture>
-      </div>
+      </div></Link>
 
       <Footer />
       <__Footer />
