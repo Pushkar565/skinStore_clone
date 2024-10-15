@@ -2,7 +2,7 @@ import React, { useState } from 'react'; // Don't forget to import useState
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Register from './components/Register';
 import Login from './components/Login';
-import Homepage from './components/Homepage';
+import Homepage from './components/homepage';
 import './App.css';
 import ProductPage from './components/productPage'; 
 import Cart from './components/Cart';
